@@ -1,0 +1,8 @@
+:root {
+    --bs-blue: #0d6efd;
+    --my-color: #cccccc;
+}
+
+h1 {
+    color: var(--my-color, --bs-blue);
+}
