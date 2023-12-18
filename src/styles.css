@@ -1,8 +1,43 @@
-:root {
-    --bs-blue: #0d6efd;
-    --my-color: #cccccc;
+:root{
+    --bs-font-sans-serif: "Roboto", sans-serif;
+    --bs-green:#75e375;
+    --bs-primary:#0d970d;
+    --my-height:100px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+}
+.container{
+    background-color: blanchedalmond;
+    height: var(--my-height);
 }
 
-h1 {
-    color: var(--my-color, --bs-blue);
+.col{
+    border: 1px solid black;
+    background-color: var(--bs-green);
+}
+.container-sm{
+    height: 100px;
+    background-color: var(--bs-green);
+}
+.container-md{
+    background-color: var(--bs-primary);
+    height:var(--my-height)
+}
+.container-lg{
+    background-color: palevioletred;
+    height: var(--my-height);
+}
+.container-xl{
+    background-color: aqua;
+    height: var(--my-height);
+}
+.container-xxl{
+    background-color: chocolate;
+    height: var(--my-height);
+}
+.container-fluid{
+    background-color: var(--bs-green);
+    height: var(--my-height);
 }
